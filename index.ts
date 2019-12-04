@@ -114,7 +114,7 @@ export function arraySortMove<T> (array: T[], from: number, to: number): T[] {
  * Group array into a set of arrays based on condition.
  * Condition should return a string.
  */
-export function arrayGroupByCondition<T> (array: T[], condition: (t: T) => string): { [key: string]: T[] } {
+export function arrGroupByCondition<T> (array: T[], condition: (t: T) => string): { [key: string]: T[] } {
   const groups: { [key: string]: T[] } = {}
   array.forEach(item => {
     const result = condition(item)
@@ -126,13 +126,13 @@ export function arrayGroupByCondition<T> (array: T[], condition: (t: T) => strin
   return groups
 }
 
-export function arrayUnique<T> (array: T[]): T[] {
+export function arrUnique<T> (array: T[]): T[] {
   return array.filter((value, index, self) => {
     return self.indexOf(value) === index
   })
 }
 
-export function arrayUniqueByKeys<T> (array: T[], keys: string[]): T[] {
+export function arrUniqueByKeys<T> (array: T[], keys: string[]): T[] {
   return array.filter((value, index, self) => {
     const criteria: DTO = {}
     keys.forEach(key => {
