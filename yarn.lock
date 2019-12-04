@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+"@aeq/obj@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@aeq/obj/-/obj-0.0.1.tgz#93866752652439ba8d38c1c73f29adf50ce379f3"
+  integrity sha512-aVQa7duhl3KpU05SRwbpsiAGRbpqro8HJuyUqk5yw5pUF5fkOqs0R7hOcirVDaPgN/DkmdOjkdiW3jVhEbAUpg==

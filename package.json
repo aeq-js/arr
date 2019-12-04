@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aeq-js/arr/issues"
   },
-  "homepage": "https://github.com/aeq-js/arr#readme"
+  "homepage": "https://github.com/aeq-js/arr#readme",
+  "dependencies": {
+    "@aeq/obj": "^0.0.1"
+  }
 }
